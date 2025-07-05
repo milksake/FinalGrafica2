@@ -21,6 +21,12 @@ tar -xzvf gymnastic_vault.tar.gz
 ```
 Esto creará los directorios `diving/` y `gymnastic_vault/`.
 
+### 3. Descargar los Pesos Pre-entrenados de C3D
+El modelo utiliza características C3D pre-entrenadas con el dataset Sports-1M. El siguiente comando descargará el archivo con el nombre correcto.
+```bash
+wget http://imagelab.ing.unimore.it/files/c3d_pytorch/c3d.pickle
+```
+
 ## Ejecutar
 
 ### 1. Entrenar los Modelos
